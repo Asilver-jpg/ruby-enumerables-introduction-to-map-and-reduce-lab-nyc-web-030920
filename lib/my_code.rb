@@ -46,7 +46,13 @@ end
 
 
 def reduce_to_any_true(src)
-  
+   src.each do |n|
+  if n
+    return true
+  end
+end
+return false
+end
   
 end
 
