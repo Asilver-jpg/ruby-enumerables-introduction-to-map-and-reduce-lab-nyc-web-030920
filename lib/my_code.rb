@@ -44,6 +44,7 @@ def  reduce_to_all_true(src)
 end
 return false
 end
+
 def reduce_to_any_true(src)
   src.each do |n|
   if !n
@@ -52,7 +53,7 @@ def reduce_to_any_true(src)
 end
 return false
 end
-end
+
 
 
 
