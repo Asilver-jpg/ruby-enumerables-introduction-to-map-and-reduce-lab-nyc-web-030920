@@ -30,6 +30,11 @@ def reduce_to_total (src)
   src.each {|n| total += n}
   total
 end
+def reduce_to_total (src, start)
+  total=start
+  src.each {|n| total += n}
+  total
+end
 
 def  reduce_to_all_true(src)
 end
