@@ -1,3 +1,4 @@
+require "pry"
 def map_to_negativize(src)
   array=[]
   src.each {|n| array << n*-1 }
@@ -45,6 +46,7 @@ end
 
 def reduce_to_any_true(src)
   src.each do |n|
+    binding.pry
   if n==false
     return false
   end
