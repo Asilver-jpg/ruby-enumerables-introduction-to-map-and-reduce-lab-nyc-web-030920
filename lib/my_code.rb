@@ -46,13 +46,10 @@ end
 
 def reduce_to_any_true(src)
   src.each do |n|
-    binding.pry
-  if n==false
-    return false
+    if !(n)
+      return false
+    end
   end
-end
-return true
-end
 
 
 
