@@ -1,11 +1,13 @@
 def map_to_negativize(src)
   array=[]
-  src.each |ele|{ }
-  
+  src.each {|n| array << n*-1 }
+  array
 end
 
 def map_to_no_change(src)
-  
+  array=[]
+  src.each {|n| array << n*-1 }
+  array
   
   
 end
