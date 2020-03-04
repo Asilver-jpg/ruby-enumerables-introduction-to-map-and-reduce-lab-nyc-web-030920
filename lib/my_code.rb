@@ -25,12 +25,10 @@ def map_to_square(src)
   src.each {|n| array << n*n}
   array
 end
-def reduce_to_total (*src)
-  if src.size ==1
-  total=0
-else
-  total= src[1]
-end
+def reduce_to_total (src, start=0)
+
+  total=start
+
   src.each {|n| total += n}
   total
 end
