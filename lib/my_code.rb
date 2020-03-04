@@ -29,7 +29,8 @@ def reduce_to_total (*src)
   if src.size ==1
   total=0
 else
-  total
+  total= src[1]
+end
   src.each {|n| total += n}
   total
 end
