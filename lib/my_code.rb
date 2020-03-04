@@ -45,6 +45,9 @@ return true
 end
 
 
-
+def reduce_to_any_true(src)
+  
+  
+end
 
 
