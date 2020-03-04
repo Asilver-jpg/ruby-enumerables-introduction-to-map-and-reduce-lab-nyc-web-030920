@@ -37,21 +37,13 @@ end
 
 def  reduce_to_all_true(src)
   src.each do |n|
-  if n
-    return true
+  if !n
+    return false
   end
 end
-return false
+return true
 end
 
-def reduce_to_any_true(src)
-  src.each do |n|
-    if !(n)
-      return false
-    end
-  end
-  return false
-  end
 
 
 
