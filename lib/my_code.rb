@@ -26,8 +26,10 @@ def map_to_square(src)
   array
 end
 def reduce_to_total (*src)
-  if src.
+  if src.size ==1
   total=0
+else
+  total
   src.each {|n| total += n}
   total
 end
