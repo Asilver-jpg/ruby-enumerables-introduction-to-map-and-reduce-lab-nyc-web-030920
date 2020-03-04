@@ -50,6 +50,7 @@ def reduce_to_any_true(src)
       return false
     end
   end
+  return false
   end
 
 
